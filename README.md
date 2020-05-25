@@ -1,5 +1,5 @@
 # Kentico Email builder components
-This repository contains email builder components which you can use in your email marketing projects.
+This repository contains email builder components which you can use in your email marketing projects. Please note that you'll need to adjust their front-end code so that they match your HTML email template.
 
 ## Components available in the repository
 * [Responsive text widget](https://github.com/lukas-xb/kentico-email-builder-components/tree/master/Responsive.Text.Widget)
@@ -9,8 +9,7 @@ This repository contains email builder components which you can use in your emai
 ## Compatibility
 * Components available in this repository are compatible with:
 * * Kentico 12 SP (Hotfix 12.0.45 or later)
-* * Email templates in the Dancing goat sample website
 * * The widgets were tested only for MS Oultook and Gmail compatibility (for web, Android, iOS and Windows MS Outlook 2016 desktop apps).
 
 ## License
-* [MIT](https://github.com/Kentico/ems-mvc-components/blob/master/LICENSE) 
+* [MIT](https://github.com/Kentico/ems-mvc-components/blob/master/LICENSE)
