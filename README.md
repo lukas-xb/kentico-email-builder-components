@@ -1,5 +1,5 @@
 # Kentico Email builder components
-This repository contains email builder components which you can use in your email marketing projects. Please note that you'll need to adjust their front-end code so that they match your HTML email template.
+This repository contains 3 email widgets which you can test for your email marketing projects. The widgets were created for articles published on Kentico blog. Please note that you'll need to adjust their front-end code so that they match your HTML email template.
 
 ## Components available in the repository
 * [Responsive text widget](https://github.com/lukas-xb/kentico-email-builder-components/tree/master/Responsive.Text.Widget)
