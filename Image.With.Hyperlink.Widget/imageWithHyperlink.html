@@ -1,17 +1,23 @@
+<!-- Checks if the widget contains any image -->
 {% if (ImageUrl != "") { %}
+<!-- Creates the image's utm_content url parameter -->
 {%
   utmContentParameter = UTMContent == String.Empty ? String.Empty : "?utm_content=" + UTMContent;
   imageLink = LinkUrl + utmContentParameter;
   return;
 #%}
-<table >
+<table>
 <tr>
+  <!-- Uses values from UI as HTML/CSS styling properties -->
   <td style="padding-top:{% ImageTopIndent %}px;padding-bottom:{% ImageBottomIndent %}px;padding-right:0px; padding-left:0px">
     <table border="0" cellpadding="0" cellspacing="0" class="container" style="background-color:#{%BackgroundColor%};width:{%ImageWidth%}px;">
       <tbody>
         <tr>
           <td style="background-color:#f5f5f5;">
+            <!-- Adds values from UI for image properties -->
             <a href="{% imageLink #%}" target="_blank" title="{%LinkTitle == String.Empty ? AlternateText : LinkTitle #%}">
+            <!-- Checks for image or defaults to default-image-product -->
+            <!-- Adds values from UI for image properties -->
             <img src="{% ImageUrl == String.Empty ? "~/getmedia/b2357cd8-efd2-4484-bf6f-ae650ac6fd38/default-image-product" : ImageUrl #%}" alt="{% AlternateText %}" class="img-max" width="{%ImageWidth%}px" style="display: block; color: #666666;  font-family: Helvetica, arial, sans-serif; font-size: 16px; width:100%;max-width:{%ImageWidth%}px;" />
           </a>
             </td>
